@@ -8,6 +8,10 @@ header #jumbo-cont{
     text-align: center;
 }
 
+.padding-t-b{
+    padding: 20px 0;
+}
+
 #jumbo{
     margin: auto;
     height:300px;
@@ -40,6 +44,23 @@ header #jumbo-cont{
 
 .section1-title{
     padding:35px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+footer .container:first-child{
+    padding: 35px 0;
+}
+
+.footer-copy{
+    padding:30px;
+    color:white;
+}
+
+.darkgray{
+    background-color: darkslategray;
 }
 
 @media screen and {
