@@ -1,0 +1,19 @@
+header .container{
+    /* height:500px; */
+    padding:30px;
+    text-align: center;
+}
+
+#jumbo{
+    margin: auto;
+    height:300px;
+    border: 1px solid black;
+    padding-top
+}
+
+#jumbo-img{
+   width:300px;
+   height:250px;
+   margin:auto;
+   border:1px solid black;
+}
