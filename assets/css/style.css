@@ -3,6 +3,8 @@
     background-color: #1ABC9C;
 }
 
+
+
 h1, h2{
     text-transform: uppercase;
 }
@@ -28,25 +30,9 @@ header #jumbo-cont{
     padding-top
 }
 
-.cards{
-    height:150px;
-    border: 1px solid black;
-    flex-wrap: nowrap;
-    margin-right: 5px;
-    margin-bottom:5px;
-    padding-bottom: 10px;
-}
-.bg-success{
-    margin-top: 10px;
-}
 
-.section1-text{
-    padding:20px;
-}
 
-.section1-title{
-    padding:35px;
-}
+
 
 footer{
     margin-top: 15px;
@@ -137,6 +123,13 @@ footer .container:first-child{
 
 /* \\\\\\\\\\   /CARD SECTION \\\\\\\ */
 
+/* \\\\\\\\\\ ABOUT SECTION \\\\\\\ */
+.about_section{
+    width:100%;
+}
+
+/* \\\\\\\\\\  / ABOUT SECTION \\\\\\\ */
+
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\  / MAIN  \\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
 
@@ -149,6 +142,10 @@ footer .container:first-child{
     .aqua img{
         width:150px;
     }
+    #about p{
+        text-align: left;
+    }
+    
  }
  
 /* // Medium devices (tablets, 768px and up) */
