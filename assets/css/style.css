@@ -1,10 +1,4 @@
 /* UTILITY */
-#color_white{
-    color: white;
-}
-nav ul li a{
-    color:white;
-}
 
 
 header #jumbo-cont{
@@ -71,7 +65,39 @@ footer .container:first-child{
 .darkgray{
     background-color: darkslategray;
 }
-
-@media screen and {
-    
+.nav-h3-cell{
+    font-size: 15px;
 }
+
+#burger{
+    display: inline-block;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .nav-h3-cell{
+        font-size: 30px;
+    }
+ }
+ 
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* #burger{
+        display: none;
+    } */
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* #burger{
+        display: none;
+    } */
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* #burger{
+        display: none;
+    }
+ } */
