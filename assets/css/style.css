@@ -2,10 +2,10 @@
 .aqua{
     background-color: #1ABC9C;
 }
-.top-footer{
+.top-footer-bg{
     background-color: #3A546D;
 }
-.bottom-footer{
+.bottom-footer-bg{
     background-color: #2C3E50;
 }
 
@@ -31,10 +31,6 @@ footer{
     margin-top: 15px;
 }
 
-
-.darkgray{
-    background-color: darkslategray;
-}
 
 /* in su da cancellare */
 
@@ -64,7 +60,8 @@ footer{
     color:white;
 }
 
-.star::after{
+.star::after, 
+.star::before{
     content: '';
     border: 2px solid white;
     background-color: white;
@@ -73,25 +70,12 @@ footer{
     margin:0 0 10px 5px;
     border-radius: 10px;
 }
-
-.star::before{
-    content: '';
-    border: 2px solid white;
-    background-color: white;
-    display: inline-block;
-    width: 10%;
-    margin:0 5px 10px 0;
-    border-radius: 10px;
-
-}
-
 /* \\\\\\\  /JUMBOTRON \\\\\\\\\ */
 
 /* \\\\\\\\\\ CARD SECTION \\\\\\\ */
 #star_dark{
     color: #2C3E50;
-    border-color: #2C3E50;
-    
+    border-color: #2C3E50; 
 }
 
 #star_dark::before, 
@@ -153,9 +137,6 @@ footer{
     #about p{
         text-align: left;
     }
-    .footer-col{
-        padding:10px;
-    }
  }
  
 /* // Medium devices (tablets, 768px and up) */
@@ -163,8 +144,6 @@ footer{
     .aqua img{
         width:200px;
     }
-
-    
  }
 
 /* // Large devices (desktops, 992px and up) */
